@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+html {
+	background: #e6fdb5 url("bg.jpg");
+}
+
+body {
+	background: #fff;
+	border-radius: 10px;
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	color: #555;
+}
+
+section {
+	width: 90%;
+	margin: 10px auto;
+}
+
+section section {
+	width: 95%;
+}
+
+section h1 {
+	border-left: solid thick #aee569;
+	border-bottom: solid medium #aee569;
+	padding-left: 0.5em;
+}
+
+section section h1 {
+	border-left: solid medium #637f29;
+	border-bottom: solid thin #637f29;
+}
+
+footer {
+	font-size: 90%;
+	text-align: center;
+}
+
+footer nav {
+	width: 51%;
+	margin: 20px auto;
+}
+
+footer nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+footer nav ul li {
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+
+footer nav ul li.place-holder {
+	visibility: hidden;
+}
+
+footer nav ul li a {
+	display: block;
+}
+
+footer nav ul li#nav-prev {
+	border-right: dashed thin #999;
+}
+
+footer nav ul li#nav-prev a:before {
+	content: "\00ab\00a0";
+}
+
+footer nav ul li#nav-next {
+	border-left: dashed thin #999;
+}
+
+footer nav ul li#nav-next a:after {
+	content: "\00a0\00bb";
+}
+
+#head-separator, #foot-separator {
+	width: 51%;
+	height: 0;
+	border: dashed 1px #9eb78b;
+}
+
+.reference {
+	font-size: 90%;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: #f4ffff;
+}
+
+.reference:before {
+	content: ">>\00a0";
+}
+
+.stub {
+	font-size: 120%;
+	text-align: center;
+}
+
+.citation-needed {
+	font-size: 70%;
+	vertical-align: super;
+}
+
+.note {
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+	font-size: 80%;
+	background: #f4fff1;
+	border-radius: 10px;
+}
